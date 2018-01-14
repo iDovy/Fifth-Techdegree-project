@@ -1,0 +1,12 @@
+@mixin media--dekstop($brk-dekstop){
+
+}
+@mixin flexbox-mobile(){
+
+}
+@mixin nav__item--active(){
+    background-color: aquamarine;
+    & a {
+        color: white
+    }
+}

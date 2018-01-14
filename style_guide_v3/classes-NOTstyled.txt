@@ -1,5 +1,4 @@
      Grid:
-    .container
     .grid__row
     .grid__col--2
     .grid__col--3
@@ -16,20 +15,15 @@
     .theme__colors
 
     Typography:
-    .container
     .link
     .blockquote
     .headline--primary
     .headline--secondary
 
     Image:
-    .img--logo
     .img--frame
     .img--avatar
-
-    Navigation:
-    .nav__item
-
+    
     Buttons:
     .btn--default
     .btn--success

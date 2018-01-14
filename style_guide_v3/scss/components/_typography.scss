@@ -1,0 +1,28 @@
+.container{
+    margin: 0 30px;
+}
+.img--logo {
+    display: block;
+    margin: 40px auto;
+}
+.headline--primary{
+    color: $emerald;
+}
+.link{
+    @extend %link;
+}
+.blockquote{
+    padding: 0 0 0 5px;
+    border-style: solid; 
+    border-radius: 6px;
+    border-width: 5px;
+    border-color: white;
+    border-left-color: $emerald;
+}
+.grid__row .grid__col--12 .card p{
+    margin-bottom: 70px;
+}
+.headline--primary, .headline--secondary{
+    text-align: left;
+    @extend %headl;
+}

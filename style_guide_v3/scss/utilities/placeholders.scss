@@ -1,0 +1,19 @@
+%link{
+    text-decoration: none;
+    font-weight: bold;
+    color: aqua;
+}
+%center {
+    text-align: center;
+  }
+%img{
+    @extend %center;
+    display: block;
+    text-align: center;
+}
+%headl{
+    margin-bottom: 10px;
+ }
+ %nav{
+    background-color: white;
+ }

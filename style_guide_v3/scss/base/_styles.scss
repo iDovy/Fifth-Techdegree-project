@@ -1,4 +1,13 @@
-.img--logo {
-    display: block;
-    margin: 40px auto;
+*{
+    font-family: $font;
+}
+p{
+   text-align: left; 
+}
+ul{
+    margin-bottom: 70px;
+}
+/**********Form elements*************/
+.img--avatar{
+    @extend %center;
 }

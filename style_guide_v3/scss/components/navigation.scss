@@ -1,0 +1,16 @@
+.nav{
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+.nav__item{
+    @extend %nav;
+}
+.nav__item a{
+    text-decoration: none;
+    color: black;
+    line-height: 40px;
+}
+.nav__item:active{
+    @include nav__item--active();
+}
