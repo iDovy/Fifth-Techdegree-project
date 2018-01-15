@@ -6,6 +6,9 @@
 .img--avatar {
   text-align: center; }
 
+.img--avatar {
+  display: block; }
+
 .headline--primary, .headline--secondary {
   margin-bottom: 10px; }
 
@@ -13,7 +16,7 @@
   background-color: white; }
 
 .container {
-  margin: 0 30px; }
+  padding: 0 40px; }
 
 .img--logo {
   display: block;
@@ -23,12 +26,13 @@
   color: #00e598; }
 
 .blockquote {
-  padding: 0 0 0 5px;
+  padding: 0 0 0px 5px;
   border-style: solid;
   border-radius: 6px;
   border-width: 5px;
   border-color: white;
-  border-left-color: #00e598; }
+  border-left-color: #00e598;
+  margin-bottom: 40px; }
 
 .grid__row .grid__col--12 .card p {
   margin-bottom: 70px; }
@@ -50,6 +54,58 @@
   background-color: aquamarine; }
   .nav__item:active a {
     color: white; }
+
+.img--avatar {
+  margin: 0 auto; }
+
+.img--frame {
+  padding: 10px;
+  border: 1px solid gray;
+  margin: 30px 0; }
+
+.form__input {
+  width: 100%;
+  border-style: none;
+  border-bottom: solid 6px #00e598;
+  border-radius: 3px;
+  margin-bottom: 10px; }
+
+.form__input::placeholder {
+  color: white; }
+
+.theme__colors {
+  width: 105%;
+  margin: 15px auto;
+  line-height: 35px;
+  border-radius: 5px; }
+
+.btn--default {
+  background-color: aqua;
+  border: aqua; }
+
+.btn--success {
+  background-color: #74C365;
+  border: #74C365; }
+
+.btn--error {
+  background-color: #C36565;
+  border: #C36565; }
+
+.btn--warning {
+  background-color: #EB7E33;
+  border: #EB7E33; }
+
+.btn--info {
+  background-color: #8F73BA;
+  border: #8F73BA; }
+
+.btn--default.theme__colors,
+.btn--success.theme__colors,
+.btn--error.theme__colors,
+.btn--warning.theme__colors,
+.btn--info.theme__colors {
+  color: white;
+  font-weight: bold; }
 
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -450,7 +506,5 @@ p {
 
 ul {
   margin-bottom: 70px; }
-
-/**********Form elements*************/
 
 /*# sourceMappingURL=styles.css.map */

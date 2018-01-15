@@ -14,12 +14,6 @@
     .centered
     .theme__colors
 
-    Typography:
-    .link
-    .blockquote
-    .headline--primary
-    .headline--secondary
-
     Image:
     .img--frame
     .img--avatar

@@ -1,0 +1,10 @@
+.form__input{
+    width: 100%;
+    border-style: none;
+    border-bottom: solid 6px $emerald;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.form__input::placeholder{
+    color: white;
+}

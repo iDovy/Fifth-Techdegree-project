@@ -1,0 +1,35 @@
+.theme__colors{
+    width: 105%;
+    margin:15px auto;
+    line-height: 35px;
+    border-radius: 5px;
+
+}
+.btn--default{
+    background-color: aqua;
+    border: aqua;
+}
+.btn--success{
+    background-color: #74C365;
+    border: #74C365;
+}
+.btn--error{
+    background-color: #C36565;
+    border: #C36565;
+}
+.btn--warning{
+    background-color: #EB7E33;
+    border: #EB7E33;
+}
+.btn--info{
+    background-color: #8F73BA;
+    border: #8F73BA;
+}
+.btn--default.theme__colors, 
+.btn--success.theme__colors, 
+.btn--error.theme__colors, 
+.btn--warning.theme__colors, 
+.btn--info.theme__colors, {
+    color: white;
+    font-weight: bold;
+}
