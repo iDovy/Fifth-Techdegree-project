@@ -1,0 +1,31 @@
+.grid__col--12.theme__colors{
+    background-color: paleturquoise;
+}
+.grid__col--6.theme__colors{
+    background-color: #417e9c;
+}
+.grid__col--4.theme__colors{
+    background-color: cyan;
+}
+.grid__col--3.theme__colors{
+    background-color: plum;
+}
+.grid__col--5.theme__colors{
+    background-color: $emerald;
+}
+.grid__col--7.theme__colors{
+    background-color: #E0A88A;
+}
+.grid__col--8.theme__colors{
+    background-color: coral;
+}
+/*********non grid items********/
+.grid__col--9{
+    margin-bottom: 0;
+}
+.grid__row{
+    margin-bottom: 50px;
+    & .theme__colors{
+        margin: 4px 0;
+    }
+}

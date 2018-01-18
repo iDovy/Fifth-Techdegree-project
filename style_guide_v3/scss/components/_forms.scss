@@ -1,10 +1,14 @@
+.form{
+    margin: 20px auto;
+}
 .form__input{
     width: 100%;
     border-style: none;
     border-bottom: solid 6px $emerald;
     border-radius: 3px;
-    margin-bottom: 10px;
+    margin-top: 25px;
+    margin-bottom: 5px;
 }
-.form__input::placeholder{
-    color: white;
+.form__label--hidden{
+    display: none;
 }

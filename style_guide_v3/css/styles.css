@@ -59,19 +59,24 @@
   margin: 0 auto; }
 
 .img--frame {
+  width: 100%;
   padding: 10px;
   border: 1px solid gray;
-  margin: 30px 0; }
+  margin: 30px 0 30px -10px; }
+
+.form {
+  margin: 20px auto; }
 
 .form__input {
   width: 100%;
   border-style: none;
   border-bottom: solid 6px #00e598;
   border-radius: 3px;
-  margin-bottom: 10px; }
+  margin-top: 25px;
+  margin-bottom: 5px; }
 
-.form__input::placeholder {
-  color: white; }
+.form__label--hidden {
+  display: none; }
 
 .theme__colors {
   width: 105%;
@@ -106,6 +111,36 @@
 .btn--info.theme__colors {
   color: white;
   font-weight: bold; }
+
+.grid__col--12.theme__colors {
+  background-color: paleturquoise; }
+
+.grid__col--6.theme__colors {
+  background-color: #417e9c; }
+
+.grid__col--4.theme__colors {
+  background-color: cyan; }
+
+.grid__col--3.theme__colors {
+  background-color: plum; }
+
+.grid__col--5.theme__colors {
+  background-color: #00e598; }
+
+.grid__col--7.theme__colors {
+  background-color: #E0A88A; }
+
+.grid__col--8.theme__colors {
+  background-color: coral; }
+
+/*********non grid items********/
+.grid__col--9 {
+  margin-bottom: 0; }
+
+.grid__row {
+  margin-bottom: 50px; }
+  .grid__row .theme__colors {
+    margin: 4px 0; }
 
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -506,5 +541,60 @@ p {
 
 ul {
   margin-bottom: 70px; }
+
+@media (min-width: 769px) {
+  .container {
+    padding: 0 140px; }
+
+  .img--logo {
+    margin-left: 0;
+    margin-right: 0; }
+
+  .grid__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+
+  .nav {
+    display: flex; }
+
+  .nav li {
+    flex-direction: row;
+    margin: 50px 10px 0 10px; }
+
+  .form {
+    margin-left: 70px; }
+
+  .img--avatar {
+    margin-top: 30px; }
+
+  .grid__col--12 {
+    display: flex;
+    width: 100%; }
+
+  .grid__col--12 .theme__colors {
+    justify-content: space-between;
+    margin: 0 10px; }
+
+  .grid__col--6.theme__colors {
+    margin: 0 10px; }
+
+  .grid__col--4.theme__colors {
+    margin: 0 10px;
+    width: 40%; }
+
+  .grid__col--3.theme__colors {
+    margin: 0 10px; }
+
+  .grid__col--5.theme__colors {
+    margin: 0 20px;
+    width: 50%; }
+
+  .grid__col--8 {
+    width: 90%; }
+
+  .centered {
+    width: 70%;
+    margin: 0 auto !important; } }
 
 /*# sourceMappingURL=styles.css.map */
