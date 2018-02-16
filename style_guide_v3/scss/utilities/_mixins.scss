@@ -59,7 +59,7 @@
         }
     }
 }
-@mixin nav__item--active(){
+@mixin nav__item--hover(){
     background-color: aquamarine;
     & a {
         color: white
