@@ -11,6 +11,6 @@
     color: black;
     line-height: 40px;
 }
-.nav__item:hover{
+.nav__item:hover {
     @include nav__item--hover();
 }

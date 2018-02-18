@@ -50,9 +50,9 @@
   color: black;
   line-height: 40px; }
 
-.nav__item:active {
+.nav__item:hover {
   background-color: aquamarine; }
-  .nav__item:active a {
+  .nav__item:hover a {
     color: white; }
 
 .img--avatar {
